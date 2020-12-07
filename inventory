@@ -1,0 +1,8 @@
+[testvm]
+#testvm-instance
+34.89.103.129
+
+[test:vars]
+ansible_user=USER
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+ansible_ssh_private_key_file=~/.ssh/ansible_id_rsa

@@ -1,0 +1,6 @@
+- name: 'install git'
+  apt:
+    pkg:
+    - nodejs
+    state: latest
+    update_cache: true

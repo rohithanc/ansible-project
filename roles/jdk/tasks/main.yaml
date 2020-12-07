@@ -1,0 +1,6 @@
+- name: 'install JDK'
+  apt:
+    pkg:
+    - openjdk-8-jdk-headless
+    state: latest
+    update_cache: true

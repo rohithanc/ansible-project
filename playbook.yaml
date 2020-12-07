@@ -1,0 +1,11 @@
+---
+- hosts: testvm
+  become: true
+  roles:
+    - awscli
+    - kubectl
+    - docker
+    - jdk
+    - git
+    - maven
+    - node

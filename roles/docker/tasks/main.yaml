@@ -1,0 +1,2 @@
+- name: "Install docker"
+  script: /home/rohithan9615/ansible/scripts/docker.sh
