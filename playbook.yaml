@@ -9,3 +9,8 @@
     - git
     - maven
     - node
+- hosts: jenkinsvm
+  become: true
+  roles:
+    - awscli
+    - kubectl 
